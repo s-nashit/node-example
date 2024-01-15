@@ -1,4 +1,4 @@
 require('./mod.js')
 
-console.log('hi')
+console.log('hi guys')
 
