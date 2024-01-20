@@ -1,3 +1,6 @@
+// reading files in Sync & Async mode
+
+
 fs = require('fs')
 
 console.log('first console')
