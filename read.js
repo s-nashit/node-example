@@ -18,6 +18,7 @@ fs.readFile('./a.txt', 'utf-8', (e,d)=>{
     else {console.log(d)}
 })
 
+// reading file in Sync mode
 text = fs.readFileSync('./b.txt', 'utf-8')
 console.log(text)
 fs.readFile('./a.txt', 'utf-8', (e,d)=>{
