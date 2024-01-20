@@ -1,6 +1,6 @@
 // reading files in Sync & Async mode
 
-
+// importing the file system module
 fs = require('fs')
 
 console.log('first console')
