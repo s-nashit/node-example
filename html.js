@@ -9,4 +9,5 @@ server = http.createServer((req,res) => {
     res.end(data)
 })
 
+// server listening
 server.listen(3000, ()=>{console.log('server running')})
