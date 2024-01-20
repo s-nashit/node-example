@@ -3,7 +3,7 @@
 // importing the module
 http =require('http')
 
-
+// creating a server
 server = http.createServer((req, res) =>{
     data = {name: "Nashit", location: "Patna", age:32};
     res.writeHead(200, {"Content-Type":"application/json"})
