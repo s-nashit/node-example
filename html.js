@@ -1,3 +1,5 @@
+//sending html document using server side scripting
+
 //import required modules
 http = require('http')
 fs = require('fs')
