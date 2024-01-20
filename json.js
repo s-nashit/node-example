@@ -1,4 +1,8 @@
+// sending json data through server side scripting
+
+// importing the module
 http =require('http')
+
 
 server = http.createServer((req, res) =>{
     data = {name: "Nashit", location: "Patna", age:32};
