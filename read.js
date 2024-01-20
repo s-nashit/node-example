@@ -5,6 +5,7 @@ fs = require('fs')
 
 console.log('first console')
 
+// Async mode
 fs.readFile('./a.txt', 'utf-8', (e,d)=>{
     if(e) {console.log(e)}
     else {console.log(d)}
