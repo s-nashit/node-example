@@ -1,3 +1,5 @@
+// sending plain text
+
 http = require('http')
 
 server = http.createServer((req,res) =>{
